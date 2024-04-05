@@ -1,0 +1,22 @@
+parameters: {}
+environment: {}
+packages:
+    - name: work-functions
+      shared: false
+      environment:
+        # SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
+        SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
+        EPIC_FREE_GAMES_URL: https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=CA&allowCountries=CA
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: epic-games-list
+          binary: false
+          main: "main"
+          runtime: nodejs:default
+          web: true
+          webSecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}

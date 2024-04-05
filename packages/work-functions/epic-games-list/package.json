@@ -1,0 +1,19 @@
+{
+  "name": "@work-functions/epic-games-list",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -e 'import(\"./index.js\").then(m => m.main())'"
+  },
+  "author": "Alex Barry",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.32.4"
+  },
+  "private": true
+}

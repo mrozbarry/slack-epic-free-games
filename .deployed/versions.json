@@ -1,0 +1,19 @@
+[
+  {
+    "apihost": "https://faas-tor1-70ca848e.doserverless.co",
+    "namespace": "fn-1d0aeacc-6ffc-4e33-b7fb-a2e6d20812d0",
+    "packageVersions": {
+      "work-functions": {
+        "version": "0.0.19",
+        "digest": "cfa1a48b61463af449cd8a34dbc095f13c01404a7ad8727e8de82afaf0b2fe8d"
+      }
+    },
+    "actionVersions": {
+      "work-functions/epic-games-list": {
+        "version": "0.0.20",
+        "digest": "e8758409a7b20906ec2087b447e750106c297279f3e0940f1d78271e93b6907b"
+      }
+    },
+    "webHashes": {}
+  }
+]
